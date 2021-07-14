@@ -14,4 +14,33 @@ public class Restaurant {
         this.bookings = new ArrayList<>();
         this.tables = new ArrayList<>();
     }
+
+    public Long getId() {
+        return id;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public ArrayList<Booking> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(ArrayList<Booking> bookings) {
+        this.bookings = bookings;
+    }
+
+    public ArrayList<Table> getTables() {
+        return tables;
+    }
+
+    public void setTables(ArrayList<Table> tables) {
+        this.tables = tables;
+    }
 }
