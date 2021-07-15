@@ -32,6 +32,18 @@ public class Restaurant {
         return bookings;
     }
 
+    public void addBooking(Booking booking){
+        bookings.add(booking);
+    }
+
+    public void changeBookingDetails(Booking booking, String time, String date, Table table, int numberOfCustomers) {
+        booking.setTime(time);
+        booking.setDate(date);
+        booking.setTable(table);
+        booking.setNumberOfCustomers(numberOfCustomers);
+    }
+
+
     public void setBookings(ArrayList<Booking> bookings) {
         this.bookings = bookings;
     }

@@ -33,7 +33,7 @@ public class Table {
         this.tableNumber = tableNumber;
     }
 
-    public boolean isAvailability() {
+    public boolean isAvailable() {
         return availability;
     }
 
